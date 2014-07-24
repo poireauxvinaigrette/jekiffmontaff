@@ -32,7 +32,7 @@ public class Badge extends Controller {
 		try {
 			WSRequestHolder holder = WS.url("http://gtabadge.rh.recouv/webquartzacq/acq/badge.do").setContentType(
 					"application/x-www-form-urlencoded");
-			String postParam = "Connexion=y&DECALHOR=-120&TIME=1403092854390&Cpts=Display+counters&USERID=CER3100429&PASSWORD=Tlmjvac!!";
+			String postParam = "Connexion=y&DECALHOR=-120&TIME=1403092854390&Cpts=Display+counters&USERID=CER3100429&PASSWORD=xxxxxx";
 
 			int nbTentative = 0;
 			Promise<String> req;
